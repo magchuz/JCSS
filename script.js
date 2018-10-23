@@ -7,6 +7,7 @@ function Click() {
 // Get the input field
 var input = document.getElementById("query");
 // Execute a function when the user releases a key on the keyboard
+if(input){
 input.addEventListener("keyup", function(event) {
   // Cancel the default action, if needed
   event.preventDefault();
@@ -15,4 +16,5 @@ input.addEventListener("keyup", function(event) {
     // Trigger the button element with a click
     document.getElementById("search").click();
   }
-});
+});}
+
