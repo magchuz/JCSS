@@ -2,7 +2,7 @@ function ignielLazyLoad(){eval(function(p,a,c,k,e,d){e=function(c){return(c<a?''
 function Click() {
    var spasi = document.getElementById("query").value.replace(/\s+$/, '');	
    var replaced = spasi.replace(/ /g, '-');
-    location.href = './'+replaced;
+    location.href = './harga/'+replaced;
 }
 // Get the input field
 var input = document.getElementById("query");
